@@ -265,7 +265,7 @@ export default function Index() {
     const userId = currentUser.uid;
 
     const ws = new WebSocket(
-      `wss://my-live-location-api.onrender.com/ws/${userId}`
+      `wss://live-tracker-gwsq.onrender.com/ws/${userId}`
     );
 
     websocketRef.current = ws;
